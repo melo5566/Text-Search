@@ -7,9 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "TextSearchViewController.h"
 
 @interface AppDelegate ()
-
+@property UINavigationController *navController;
+@property TextSearchViewController *viewController;
 @end
 
 @implementation AppDelegate
@@ -17,6 +19,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    self.window.backgroundColor = [UIColor clearColor];
+    [self setRootViewController];
+    
     return YES;
 }
 
@@ -41,5 +48,15 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+- (void) setRootViewController {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    _viewController = [TextSearchViewController new];
+    self.navController = [[UINavigationController alloc] initWithRootViewController:_viewController];
+    [self.navController.navigationBar setTranslucent:NO];
+    self.window.rootViewController = self.navController;
+    [self.window makeKeyAndVisible];
+}
+
 
 @end

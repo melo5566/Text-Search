@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D044D8EC1C8A6CF200024290 /* all_posts.json in Resources */ = {isa = PBXBuildFile; fileRef = D044D8EB1C8A6CF100024290 /* all_posts.json */; };
+		D059F2FD1C8C832D008A9585 /* DataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D059F2FC1C8C832D008A9585 /* DataObject.m */; };
 		D0D1B4141C87F26F00E8081A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D1B4131C87F26F00E8081A /* main.m */; };
 		D0D1B4171C87F26F00E8081A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D1B4161C87F26F00E8081A /* AppDelegate.m */; };
 		D0D1B41A1C87F26F00E8081A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D1B4191C87F26F00E8081A /* ViewController.m */; };
 		D0D1B41D1C87F26F00E8081A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0D1B41B1C87F26F00E8081A /* Main.storyboard */; };
 		D0D1B41F1C87F26F00E8081A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D1B41E1C87F26F00E8081A /* Assets.xcassets */; };
 		D0D1B4221C87F26F00E8081A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0D1B4201C87F26F00E8081A /* LaunchScreen.storyboard */; };
+		D0D1B42A1C87F5F200E8081A /* icon_arrow_back.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D1B4291C87F5F200E8081A /* icon_arrow_back.png */; };
+		D0D1B42D1C87F72300E8081A /* TextSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D1B42C1C87F72300E8081A /* TextSearchViewController.m */; };
+		D0D1B42F1C880D3A00E8081A /* icon_category.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D1B42E1C880D3A00E8081A /* icon_category.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D044D8EB1C8A6CF100024290 /* all_posts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = all_posts.json; sourceTree = "<group>"; };
+		D059F2FB1C8C832D008A9585 /* DataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataObject.h; sourceTree = "<group>"; };
+		D059F2FC1C8C832D008A9585 /* DataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataObject.m; sourceTree = "<group>"; };
 		D0D1B40F1C87F26F00E8081A /* Text Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Text Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D1B4131C87F26F00E8081A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D0D1B4151C87F26F00E8081A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +34,10 @@
 		D0D1B41E1C87F26F00E8081A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0D1B4211C87F26F00E8081A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0D1B4231C87F26F00E8081A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0D1B4291C87F5F200E8081A /* icon_arrow_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_arrow_back.png; sourceTree = "<group>"; };
+		D0D1B42B1C87F72300E8081A /* TextSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextSearchViewController.h; sourceTree = "<group>"; };
+		D0D1B42C1C87F72300E8081A /* TextSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextSearchViewController.m; sourceTree = "<group>"; };
+		D0D1B42E1C880D3A00E8081A /* icon_category.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_category.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,9 @@
 		D0D1B4111C87F26F00E8081A /* Text Search */ = {
 			isa = PBXGroup;
 			children = (
+				D044D8EB1C8A6CF100024290 /* all_posts.json */,
+				D0D1B4291C87F5F200E8081A /* icon_arrow_back.png */,
+				D0D1B42E1C880D3A00E8081A /* icon_category.png */,
 				D0D1B4151C87F26F00E8081A /* AppDelegate.h */,
 				D0D1B4161C87F26F00E8081A /* AppDelegate.m */,
 				D0D1B4181C87F26F00E8081A /* ViewController.h */,
@@ -67,6 +82,8 @@
 				D0D1B4201C87F26F00E8081A /* LaunchScreen.storyboard */,
 				D0D1B4231C87F26F00E8081A /* Info.plist */,
 				D0D1B4121C87F26F00E8081A /* Supporting Files */,
+				D0D1B42B1C87F72300E8081A /* TextSearchViewController.h */,
+				D0D1B42C1C87F72300E8081A /* TextSearchViewController.m */,
 			);
 			path = "Text Search";
 			sourceTree = "<group>";
@@ -75,6 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				D0D1B4131C87F26F00E8081A /* main.m */,
+				D059F2FB1C8C832D008A9585 /* DataObject.h */,
+				D059F2FC1C8C832D008A9585 /* DataObject.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -136,7 +155,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0D1B42F1C880D3A00E8081A /* icon_category.png in Resources */,
+				D044D8EC1C8A6CF200024290 /* all_posts.json in Resources */,
 				D0D1B4221C87F26F00E8081A /* LaunchScreen.storyboard in Resources */,
+				D0D1B42A1C87F5F200E8081A /* icon_arrow_back.png in Resources */,
 				D0D1B41F1C87F26F00E8081A /* Assets.xcassets in Resources */,
 				D0D1B41D1C87F26F00E8081A /* Main.storyboard in Resources */,
 			);
@@ -151,7 +173,9 @@
 			files = (
 				D0D1B41A1C87F26F00E8081A /* ViewController.m in Sources */,
 				D0D1B4171C87F26F00E8081A /* AppDelegate.m in Sources */,
+				D059F2FD1C8C832D008A9585 /* DataObject.m in Sources */,
 				D0D1B4141C87F26F00E8081A /* main.m in Sources */,
+				D0D1B42D1C87F72300E8081A /* TextSearchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +322,7 @@
 				D0D1B4281C87F26F00E8081A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
